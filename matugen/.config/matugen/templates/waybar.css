@@ -1,0 +1,27 @@
+/* Matugen Waybar Colors */
+@define-color base {{colors.dark.surface}};
+@define-color mantle {{colors.dark.surface_container_lowest}};
+@define-color crust {{colors.dark.surface_container}};
+
+@define-color text {{colors.dark.on_surface}};
+@define-color subtext0 {{colors.dark.on_surface_variant}};
+@define-color subtext1 {{colors.dark.outline}};
+
+@define-color surface0 {{colors.dark.surface_container}};
+@define-color surface1 {{colors.dark.surface_container_low}};
+@define-color surface2 {{colors.dark.surface_container_high}};
+
+@define-color overlay0 {{colors.dark.surface_variant}};
+@define-color overlay1 {{colors.dark.surface_container_highest}};
+@define-color overlay2 {{colors.dark.inverse_surface}};
+
+@define-color foreground {{colors.dark.on_surface}};
+@define-color background {{colors.dark.surface}};
+
+@define-color accent {{colors.dark.primary}};
+@define-color red {{colors.dark.error}};
+@define-color green {{colors.dark.tertiary}};
+@define-color yellow {{colors.dark.secondary}};
+@define-color orange {{colors.dark.primary_container}};
+@define-color blue {{colors.dark.primary}};
+@define-color purple {{colors.dark.secondary_container}};

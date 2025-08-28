@@ -16,7 +16,7 @@ https://wiki.cachyos.org/features/optimized_repos/
 https://youtu.be/NzNuFN9hqjI?si=ViNSwoosGHvR-2yF
 
 # install needed packages from yay
- yay -S waypaper matugen-git millennium vesktop ags-hyprpanel-git
+ yay -S waypaper matugen-git millennium vesktop ags-hyprpanel-git swww-git
 
 # clone this github repo
 git clone git@github.com:bluecxmboo/dotfiles.github

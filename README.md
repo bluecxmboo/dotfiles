@@ -1,6 +1,6 @@
 this is my dotfiles repo, managed with stow, tutorial may be incomplete, should be fully updated before reinstall (if needed)
 # tutorial
-first, install git
+# first, install git
  sudo pacman -S git
 
 # install stow 

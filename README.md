@@ -22,4 +22,4 @@ https://youtu.be/NzNuFN9hqjI?si=ViNSwoosGHvR-2yF
 git clone git@github.com:bluecxmboo/dotfiles.github
 
 # run stow 
-stow btop fastfetch fish hypr hyprpanel kitty matugen nvim rofi vimrc walset-backend yazi
+stow btop fastfetch fish hypr hyprpanel kitty matugen nvim rofi vimrc walset-backend yazi wallpapers

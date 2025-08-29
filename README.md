@@ -16,10 +16,10 @@ https://wiki.cachyos.org/features/optimized_repos/
 https://youtu.be/NzNuFN9hqjI?si=ViNSwoosGHvR-2yF
 
 # install needed packages from yay
- yay -S waypaper matugen-git millennium vesktop ags-hyprpanel-git swww-git rofi-power-menu 
+ yay -S waypaper matugen-git millennium vesktop ags-hyprpanel-git swww-git rofi-power-menu python-pywal16 
 
 # clone this github repo
 git clone git@github.com:bluecxmboo/dotfiles.github
 
 # run stow 
-stow btop fastfetch fish hypr hyprpanel kitty matugen nvim rofi vimrc walset-backend yazi wallpapers
+stow btop fastfetch fish hypr hyprpanel kitty matugen nvim rofi vimrc walset-backend yazi wallpapers pywal

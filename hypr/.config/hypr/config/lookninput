@@ -57,20 +57,20 @@ animations {
     bezier = mybezier4,0.05, 0.9, 0.1, 1.05
     animation = global, 1, 10, default
     animation = border, 1, 5.39, easeOutQuint
-    animation = windows, 1, 6, mybezier4, popin 
-    animation = windowsIn, 1, 6, mybezier4, popin 
-    animation = windowsOut, 1, 6, mybezier4, popin 
+    animation = windows, 1, 7, mybezier4, popin 
+    animation = windowsIn, 1, 7, mybezier4, popin 
+    animation = windowsOut, 1, 7, mybezier4, popin 
     animation = fadeIn, 1, 6, mybezier4
     animation = fadeOut, 1, 6, mybezier4
     animation = fade, 1, 6, mybezier4
-    animation = layers, 1, 6, mybezier4, slide
-    animation = layersIn, 1, 6, mybezier4, slide
-    animation = layersOut, 1, 6, mybezier4, slide
-    animation = fadeLayersIn, 1, 6, mybezier4
-    animation = fadeLayersOut, 1, 6, mybezier4
-    animation = workspaces, 1, 5, mybezier4, slide
-    animation = workspacesIn, 1, 5, mybezier4, slide
-    animation = workspacesOut, 1, 5, mybezier4, slide
+    animation = layers, 1, 7, mybezier4, slide
+    animation = layersIn, 1, 7, mybezier4, slide
+    animation = layersOut, 1, 7, mybezier4, slide
+    animation = fadeLayersIn, 1, 7, mybezier4
+    animation = fadeLayersOut, 1, 7, mybezier4
+    animation = workspaces, 1, 6, mybezier4, slide
+    animation = workspacesIn, 1, 6, mybezier4, slide
+    animation = workspacesOut, 1, 6, mybezier4, slide
 }
 
 # See https://wiki.hypr.land/Configuring/Dwindle-Layout/ for more

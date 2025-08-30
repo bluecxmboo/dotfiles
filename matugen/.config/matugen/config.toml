@@ -10,13 +10,9 @@ set = true
 input_path = '~/.config/nvim/pywal/matugen.lua'
 output_path = '~/.cache/wal/base46-dark.lua'
 
-
-
 [templates.yazi]
 input_path = '~/.config/matugen/templates/yazi-theme.toml'
 output_path = '~/.config/yazi/theme.toml'
-
-
 
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'

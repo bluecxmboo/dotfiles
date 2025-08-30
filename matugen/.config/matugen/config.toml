@@ -39,14 +39,14 @@ output_path = '~/.config/hypr/colors.conf'
 post_hook = 'hyprctl reload'
 
 
-#[templates.hyprlock]
-#input_path = "~/.config/matugen/templates/hyprland-colors.conf"
-#output_path = "~/.config/hypr/colors.conf"
+[templates.hyprlock]
+input_path = "~/.config/matugen/templates/hyprland-colors.conf"
+output_path = "~/.config/hypr/colors.conf"
 
 [templates.kitty]
 input_path = "~/.config/matugen/templates/kitty-colors.conf"
-output_path = "~/.config/kitty/colors.conf"
-post_hook = "pkill -SIGUSR1 kitty"
+output_path = "~/.config/kitty/themes/matugen.conf"
+post_hook = "kitten themes --reload-in=all matugen"
 
 [templates.btop]
 input_path = "~/.config/matugen/templates/btop.theme"

@@ -6,9 +6,9 @@ command = "swww"
 arguments = [ "img", "-t", "fade", "--transition-duration", "0.5", "--transition-step", "255", "--transition-fps", "60", "-f", "Nearest",]
 set = true
 
-#[templates.nvim]
-#input_path = '~/.config/nvim/pywal/matugen.lua'
-#output_path = '~/.cache/wal/base46-dark.lua'
+[templates.nvim]
+input_path = '~/.config/nvim/pywal/matugen.lua'
+output_path = '~/.cache/wal/base46-dark.lua'
 
 
 
@@ -18,10 +18,10 @@ output_path = '~/.config/yazi/theme.toml'
 
 
 
-#[templates.pywalfox]
-#input_path = '~/.config/matugen/templates/pywalfox-colors.json'
-#output_path = '~/.cache/wal/colors.json'
-#post_hook = 'pywalfox update'
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
 
 
 [templates.vesktop]
@@ -33,20 +33,20 @@ output_path = '~/.config/vesktop/themes/midnight-discord.css'
 input_path = '~/.config/matugen/templates/rofi-colors.rasi'
 output_path = '~/.config/rofi/colors.rasi'
 
-#[templates.hyprland]
-#input_path = '~/.config/matugen/templates/hyprland-colors.conf'
-#output_path = '~/.config/hypr/colors.conf'
-#post_hook = 'hyprctl reload'
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
 
 
 #[templates.hyprlock]
 #input_path = "~/.config/matugen/templates/hyprland-colors.conf"
 #output_path = "~/.config/hypr/colors.conf"
 
-#[templates.kitty]
-#input_path = "~/.config/matugen/templates/kitty-colors.conf"
-#output_path = "~/.config/kitty/colors.conf"
-#post_hook = "pkill -SIGUSR1 kitty"
+[templates.kitty]
+input_path = "~/.config/matugen/templates/kitty-colors.conf"
+output_path = "~/.config/kitty/colors.conf"
+post_hook = "pkill -SIGUSR1 kitty"
 
 [templates.btop]
 input_path = "~/.config/matugen/templates/btop.theme"

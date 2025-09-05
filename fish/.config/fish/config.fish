@@ -2,5 +2,5 @@ alias n="nvim"
 fastfetch
 fish_add_path ~/.local/bin
 set fish_greeting
-
-
+zoxide init --cmd cd fish | source
+fzf --fish | source

@@ -19,6 +19,10 @@ input_path = '~/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
 
+[templates.tmux]
+input_path = '~/.config/matugen/templates/tmux.conf'
+output_path = '~/.tmux.conf'
+post_hook = 'tmux source-file ~/.tmux.conf'
 
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/midnight-discord.css'

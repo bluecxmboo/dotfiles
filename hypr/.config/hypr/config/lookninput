@@ -59,7 +59,7 @@ animations {
     animation = border, 1, 5.39, easeOutQuint
     animation = windows, 1, 5, mybezier4, popin 
     animation = windowsIn, 1, 5, mybezier4, popin 
-    animation = windowsOut, 1, 5, mybezier4, popin 
+    animation = windowsOut, 1, 15, mybezier4, popin 
     animation = fadeIn, 1, 5, mybezier4
     animation = fadeOut, 1, 5, mybezier4
     animation = fade, 1, 5, mybezier4
